@@ -7,8 +7,10 @@
 ```cmd
 1. 视频分割成jpg图片
 ffmpeg.exe -i ***.mp4 %d.jpg
+
 2. 视频分割成png图片
 ffmpeg.exe -i ***.mp4 %d.png
+
 3. jpg图片合并为mp4视频
 ffmpeg.exe -f image2 -i %d.jpg ***.mp4
 ```
